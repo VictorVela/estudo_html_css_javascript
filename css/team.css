@@ -10,7 +10,7 @@
 .inner-width{
   max-width: 1200px;
   margin: auto;
-  padding: 40px;
+  padding: 80px 20px;
   color: #333;
   overflow: hidden;
 }
@@ -60,6 +60,10 @@
 .p-sm a i{
   color: #333;
   line-height: 30px;
+}
+.p-sm img{
+  width: 15px;
+  height: 15px;
 }
 @media screen and (max-width:600px){
  .pe{

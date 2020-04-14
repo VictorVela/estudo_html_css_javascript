@@ -1,0 +1,56 @@
+.about-section{
+  width: 100%;
+  background: #f1f1f1;
+  padding: 40px 0;
+}
+.inner-width{
+  max-width: 1600px;
+  overflow: hidden;
+  padding: 30px 20px;
+  margin: auto;
+}
+.about-section h1{
+  text-align: center;
+}
+.border{
+  width: 100px;
+  height: 3px;
+  background: #201f1f;
+  margin: 40px auto;
+}
+.about-section-row{
+  display: flex;
+  flex-wrap: wrap;
+}
+.about-section-col{
+  flex: 50%;
+}
+.about{
+  padding-right: 30px;
+}
+.skills{
+  padding-left: 300px;
+}
+.progress img{
+  height: 500px;
+  width: 800px;
+  margin-top: 20px;
+}
+.about p{
+  text-align: justify;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+.about a{
+  display: inline-block;
+  color: #e74c3c;
+  text-decoration: none;
+  border: 2px solid #e74c3c;
+  border-radius: 24px;
+  padding: 8px 40px;
+  transition: 0.4s linear;
+} 
+.about a:hover{
+  color: #fff;
+  background: #e74c3c;
+}
