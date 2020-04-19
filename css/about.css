@@ -18,10 +18,14 @@
   background: #201f1f;
   margin: 40px auto;
 }
+
+/* responsivo */
 .about-section-row{
   display: flex;
   flex-wrap: wrap;
 }
+
+/* deve ser aqui */
 .about-section-col{
   flex: 50%;
 }
@@ -32,14 +36,19 @@
   padding-left: 300px;
 }
 .progress img{
-  height: 500px;
-  width: 800px;
+  width: 100%;
+  height: auto;
   margin-top: 20px;
 }
 .about p{
   text-align: justify;
   margin-bottom: 20px;
-  font-size: 30px;
+  font-size: 25px;
+}
+@media (max-width: 1120px){
+  .about-section-col{
+    flex: 100%;
+  }
 }
 /* .about a{
   display: inline-block;
