@@ -25,12 +25,12 @@
 
     <div class="header">
       <!-- <img src="assets/img/logo_V_mi_bco.png" alt="Smiley face" height="240" width="200"> -->
-      <p>
+      <p id="titulo">
         A inovação em um simples piscar de olhos
       </p>
-      <button type="button">Conhecer</button>
+      <button onclick="window.location.href='#contact'" type="button">Conhecer</button>
     </div>
-    <div class="nav">
+    <!-- <div class="nav">
       <input type="checkbox" id="check">
       <label for="check" class="checkbtn">
         <i class="fas fa-bars"></i>
@@ -47,7 +47,7 @@
       <div class="logo">
         <img src="assets/img/logo_H_mi_bco.png" alt="Smiley face" height="55" width="180">
       </div>
-    </div>
+    </div> -->
   </div>
   <!-- LANDING PAGE -->
 
@@ -88,30 +88,32 @@
 
 
   <!-- solução 01 -->
-  <div id="about">
-    <div class="about-section">
-      <div class="inner-width">
-        <h1>Promotora Holográfica</h1>
-        <div class="border"></div>
-        <div class="about-section-row">
-          <div class="about-section-col">
-            <div class="about">
-              <p>
-                A Promotora Holográfica é uma projeção holográfica que interage com o público através
-                da fala, recepcionando, tirando dúvidas, apresentando produto, marcas e serviços.
+  <div id="solu">
+    <div id="about">
+      <div class="about-section">
+        <div class="inner-width">
+          <h1>Promotora Holográfica</h1>
+          <div class="border"></div>
+          <div class="about-section-row">
+            <div class="about-section-col">
+              <div class="about">
+                <p>
+                  A Promotora Holográfica é uma projeção holográfica que interage com o público através
+                  da fala, recepcionando, tirando dúvidas, apresentando produto, marcas e serviços.
 
-                Disponível em duas soluções: uma projeção holográfica com avatares 3D ou com
-                pessoas reais, ambas permitem a interação com o público por meio de inteligência
-                artificial e os conteúdos são todos animados e interativos desenvolvidos conforme a
-                necessidade do cliente.
-              </p>
-              <!-- <a href="#">Saiba mais</a> -->
+                  Disponível em duas soluções: uma projeção holográfica com avatares 3D ou com
+                  pessoas reais, ambas permitem a interação com o público por meio de inteligência
+                  artificial e os conteúdos são todos animados e interativos desenvolvidos conforme a
+                  necessidade do cliente.
+                </p>
+                <!-- <a href="#">Saiba mais</a> -->
+              </div>
             </div>
-          </div>
-          <div class="about-section-col">
-            <div class="skill">
-              <div class="progress">
-                <img src="assets/img/promotora_sala.jpg" alt="">
+            <div class="about-section-col">
+              <div class="skill">
+                <div class="progress">
+                  <img src="assets/img/promotora_sala.jpg" alt="">
+                </div>
               </div>
             </div>
           </div>
@@ -155,12 +157,13 @@
     </div>
   </div>
 
-  <div class="iframe-container">
-    <iframe width="1120" height="630" src="https://www.youtube.com/embed/l9x_3YCe88s" frameborder="0"
-      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-    </iframe>
+  <div id="port">
+    <div class="iframe-container">
+      <iframe width="1120" height="630" src="https://www.youtube.com/embed/l9x_3YCe88s" frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+      </iframe>
+    </div>
   </div>
-
 
 
   <!-- video -->
@@ -242,9 +245,6 @@
             <div class="p-des">Sócio Executivo</div>
             <div class="p-sm">
               <a href="www.linkedin.com/in/victorgalhardovela"><i class="fab fa-linkedin"></i></a>
-              <a href="https://www.instagram.com/victorgalhardovela/?hl=pt-br">
-                <img src="assets/img/ico/lattes.png" alt="Smiley face" width="42" height="42">
-              </a>
             </div>
           </div>
         </div>
@@ -254,54 +254,85 @@
   <!-- TEAM -->
 
   <!-- CONTACT -->
-  <div class="form-back">
-    <div class="contact-form">
-      <h1>Contact Us</h1>
+  <div id="contact">
+    <div class="form-back">
+      <div class="contact-form">
+        <h1>Entre em contato</h1>
 
-      <div class="txtb">
-        <label>Full Name :</label>
-        <input type="text" placeholder="Seu nome">
+        <div class="txtb">
+          <label>Seu nome :</label>
+          <input type="text" placeholder="Seu nome">
+        </div>
+
+        <div class="txtb">
+          <label>Email</label>
+          <input type="text" placeholder="Seu Email">
+        </div>
+
+        <div class="txtb">
+          <label>Numero telefone :</label>
+          <input type="text" placeholder="Seu numero">
+        </div>
+
+        <div class="txtb">
+          <label>Empresa :</label>
+          <input type="text" placeholder="Empresa">
+        </div>
+
+        <div class="txtb">
+          <label>Mensagem :</label>
+          <textarea></textarea>
+        </div>
+
+        <a class="btn">Quero entrar em contato</a>
+
       </div>
-
-      <div class="txtb">
-        <label>Email</label>
-        <input type="text" placeholder="Seu Email">
-      </div>
-
-      <div class="txtb">
-        <label>Phone Number :</label>
-        <input type="text" placeholder="Seu numero">
-      </div>
-
-      <div class="txtb">
-        <label>Mensagem :</label>
-        <textarea></textarea>
-      </div>
-
-      <a class="btn">Enviar</a>
-
     </div>
   </div>
-
 
   <!-- //CONTACT -->
 
-  <!-- FOOTER -->
-<div class="footer">
-  <div class="footer-content">
-    <div class="footer-section about">
-      <h1>Redes sociais</h1>
-      <!-- <a href="www.linkedin.com/in/victorgalhardovela"><i class="fab fa-linkedin fa-5x"></i></a>
-      <a href="www.linkedin.com/in/victorgalhardovela"><i class="fab fa-facebook fa-5x"></i></a>
-      <a href="www.linkedin.com/in/victorgalhardovela"><i class="fab fa-instagram fa-5x"></i></a> -->
+  <div class="nav">
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+      <i class="fas fa-bars"></i>
+    </label>
+    <div class="menu">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#solu">Solução</a></li>
+        <li><a href="#port">Portifólio</a></li>
+        <li><a href="#team">Time</a></li>
+        <li><a href="www.linkedin.com/in/victorgalhardovela"><i class="fab fa-linkedin fa-1x"></i></a></li>
+        <li><a href="www.linkedin.com/in/victorgalhardovela"><i class="fab fa-facebook fa-1x"></i></a></li>
+        <li><a href="https://www.instagram.com/eyevisioncwb/?hl=pt-br"><i class="fab fa-instagram fa-1x"></i></a></li>
+        <li><a href="#contact">Contato</a></li>
+      </ul>
     </div>
-    
+    <div class="logo">
+      <img src="assets/img/logo_H_mi_bco.png" alt="Smiley face" height="55" width="180">
+    </div>
   </div>
 
-  <div class="footer-bottom">
-    EYEVISION Mídias Interativas &copy; 2020. Todos os direitos reservados.
+  <!-- FOOTER -->
+  <div class="footer">
+    <!-- <div class="footer-content">
+      <div class="footer-section about">
+        <h1>Redes sociais</h1>
+        <div id="logos">
+          <a href="www.linkedin.com/in/victorgalhardovela"><i class="fab fa-linkedin fa-5x"></i></a>
+          <a href="www.linkedin.com/in/victorgalhardovela"><i class="fab fa-facebook fa-5x"></i></a>
+          <a href="www.linkedin.com/in/victorgalhardovela"><i class="fab fa-instagram fa-5x"></i></a>
+        </div>
+        
+      </div>
+    </div> -->
+
+    <div class="footer-bottom">
+      EYEVISION Mídias Interativas &copy; 2020. Todos os direitos reservados.
+    </div>
   </div>
-</div>
   <!-- //FOOTER -->
 
   <!-- SCRIPTS -->
