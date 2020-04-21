@@ -4,10 +4,23 @@
 .fontnova p{
   color: #58595b;
 }
+#midias{
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+#email{
+  font-size: 1px;
+}
 
 .about-section{
   width: 100%;
   background: #f1f1f1;
+  padding: 40px 0;
+}
+.about-section-footer{
+  width: 100%;
+  background: #3f3e3e;
   padding: 40px 0;
 }
 .inner-width{
@@ -16,7 +29,17 @@
   padding: 30px 20px;
   margin: auto;
 }
+.inner-width-footer{
+  max-width: 1600px;
+  overflow: hidden;
+  padding: 30px 20px;
+  margin: auto;
+  color: #d3d3d3;
+}
 .about-section h1{
+  text-align: center;
+}
+.about-section-footer h1{
   text-align: center;
 }
 .border{
@@ -56,6 +79,17 @@
 @media (max-width: 1120px){
   .about-section-col{
     flex: 100%;
+    font-size: small;
+  }
+  .about{
+    padding-right: 0px;
+  }
+  #email{
+    font-size: 15px;
+  }
+  #midias{
+    width: 50%%;
+    flex-direction: column;
   }
 }
 /* .about a{

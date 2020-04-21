@@ -1,7 +1,11 @@
+#solu-footer{
+  background-color: hotpink;
+}
+
 .footer {
   background: #303036;
   color: #d3d3d3;
-  height: 400px;
+  height: 0px;
   position: relative;
 }
 
@@ -10,6 +14,16 @@
   display: flex;
   justify-content: center;
 }
+
+.footer .whats{
+  text-decoration: none;
+  color: rgb(184, 184, 184);
+  /* padding-left: 50px; */
+  }
+.footer .about{
+  margin-left: 100px;
+  margin-right: 100px;  
+  }
 
 .footer .footer-bottom{
   background: #343a40;
@@ -28,6 +42,10 @@
   width: 200px; 
   height: 200px;
   transition: 0.4s;
+  padding: 100px;
+}
+.about a:link{
+  color: green;
 }
 #logos{
   margin: auto;
@@ -35,10 +53,7 @@
   flex-direction: row;
   text-decoration: none;
 }
-.WhatsApp a{
-text-decoration: none;
-color: hotpink;
-}
+
 .about a:hover{ 
   /* transform: scale(1.3); */
 }
