@@ -3,6 +3,7 @@ html, body{
   padding: 0;
   width: 100%;
   font-family: 'Century Gothic',sans-serif;
+  /* font: 20px Lato,sans-serif; */
   background: url(../assets/img/bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -88,8 +89,8 @@ html, body{
 }
 
 ul li:nth-child(9) a{
-  color: #009f8b;
-  border: 1px solid #009f8b;
+  color: #007fff;
+  border: 1px solid #007fff;
   padding: 10px 20px;
   border-radius: 4px;
 }
@@ -111,13 +112,13 @@ ul li:nth-child(9) a{
 
 .header p{
   color: #fff;
-  font-size: 50px;
+  font-size: 550px;
   font-weight: lighter;
 }
 
 .header button{
   color: #fff;
-  background-color: #009f8b;
+  background-color: #007fff;
   padding: 18px 38px;
   border: none;
   font-size: 14px;
@@ -127,6 +128,9 @@ ul li:nth-child(9) a{
 }
 
 #titulo{
+  font-size: 2vw;
+}
+#titulo p{
   font-size: 2vw;
 }
 
@@ -153,7 +157,7 @@ ul li:nth-child(9) a{
   }
   a:hover,a.active{
     background: none;
-    color: #009f8b;
+    color: #007fff;
   }
   #check:checked ~ .menu ul{
     left: 0;

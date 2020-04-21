@@ -1,3 +1,10 @@
+.fontnova{
+  font: 20px Lato,sans-serif;
+}
+.fontnova p{
+  color: #58595b;
+}
+
 .about-section{
   width: 100%;
   background: #f1f1f1;
@@ -44,6 +51,7 @@
   text-align: justify;
   margin-bottom: 20px;
   font-size: 25px;
+  /* color: #58595b; */
 }
 @media (max-width: 1120px){
   .about-section-col{
