@@ -9,10 +9,9 @@
   text-align: center;
   justify-content: space-between;
 }
-#email{
-  font-size: 1px;
+#legenda{
+ text-align: center; 
 }
-
 .about-section{
   width: 100%;
   background: #f1f1f1;
@@ -28,6 +27,7 @@
   overflow: hidden;
   padding: 30px 20px;
   margin: auto;
+  /* margin-top: 60px; */
 }
 .inner-width-footer{
   max-width: 1600px;
@@ -87,9 +87,8 @@
   #email{
     font-size: 15px;
   }
-  #midias{
-    width: 50%%;
-    flex-direction: column;
+  #midias a{
+    width: 50%;
   }
 }
 /* .about a{

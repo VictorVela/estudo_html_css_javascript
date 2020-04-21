@@ -1,7 +1,12 @@
 #port{
   background-color: #f1f1f1;
 }
-
+#texto-video{
+  background-color: #f1f1f1;
+}
+#texto-video h1{
+ height: 100%;
+}
 .iframe-container{
   position: relative;
   width: 50%; 

@@ -65,6 +65,9 @@
   width: 15px;
   height: 15px;
 }
+#team-space{
+  margin-top: 60px;
+}
 @media screen and (max-width:600px){
  .pe{
    width: 100%;
