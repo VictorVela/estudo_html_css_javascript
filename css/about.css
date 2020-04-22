@@ -92,6 +92,38 @@
     
   }
 }
+@media (max-width: 400px){
+  .about p {
+    text-align: justify;
+    margin-bottom: 20px;
+    font-size: 20px;
+    /* color: #58595b; */
+}
+.progress h1 {
+  width: 90%;
+  padding: 0%;
+  margin: 0;
+  text-align: justify;
+  margin-bottom: 20px;
+  font-size: 20px;
+  /* color: #58595b; */
+}
+
+  .about-section-col{
+    flex: 100%;
+    font-size: 15px;
+  }
+  .about{
+    padding-right: 0px;
+  }
+  #email{
+    font-size: 15px;
+  }
+  #midias {
+    margin-left: -25px;
+  }
+}
+
 /* .about a{
   display: inline-block;
   color: #e74c3c;
