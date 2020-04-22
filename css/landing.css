@@ -88,7 +88,7 @@ html, body{
   text-transform: uppercase;
 }
 
-ul li:nth-child(8) a{
+ul li:nth-child(5) a{
   color: #007fff;
   border: 1px solid #007fff;
   padding: 10px 20px;
