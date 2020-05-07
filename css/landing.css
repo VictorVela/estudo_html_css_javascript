@@ -88,7 +88,7 @@ html, body{
   text-transform: uppercase;
 }
 
-ul li:nth-child(6) a{
+ul li:nth-child(7) a{
   color: #007fff;
   border: 1px solid #007fff;
   padding: 10px 20px;
@@ -180,7 +180,7 @@ ul li:nth-child(6) a{
   ul{
     position: fixed;
     width: 100%;
-    height: 320px;
+    height: 390px;
     display: flex;
     flex-direction: column;
     background: #424242;
@@ -197,7 +197,7 @@ ul li:nth-child(6) a{
     color: #007fff;
   }
   #check:checked ~ .menu ul{
-    left: 40%;
+    left: 30%;
   }
   #titulo{
     font-size: 5vw;

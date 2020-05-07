@@ -36,7 +36,7 @@
   left: 0px;
   padding-top: 20px;
 }
-.about a{
+/* .about a{
   margin: auto;
   display: flex;
   width: 200px; 
@@ -46,7 +46,7 @@
 }
 .about a:link{
   color: green;
-}
+} */
 #logos{
   margin: auto;
   display: flex;
