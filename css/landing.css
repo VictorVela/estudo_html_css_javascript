@@ -88,7 +88,7 @@ html, body{
   text-transform: uppercase;
 }
 
-ul li:nth-child(7) a{
+ul li:nth-child(8) a{
   color: #007fff;
   border: 1px solid #007fff;
   padding: 10px 20px;
@@ -180,7 +180,7 @@ ul li:nth-child(7) a{
   ul{
     position: fixed;
     width: 100%;
-    height: 390px;
+    height: 430px;
     display: flex;
     flex-direction: column;
     background: #424242;
