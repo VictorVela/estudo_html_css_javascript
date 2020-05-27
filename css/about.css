@@ -66,6 +66,13 @@
 .skills{
   padding-left: 300px;
 }
+.so_img img{
+  /* margin-left: 220px; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 .progress img{
   width: 100%;
   height: auto;
