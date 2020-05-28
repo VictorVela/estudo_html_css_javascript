@@ -66,11 +66,19 @@
 .skills{
   padding-left: 300px;
 }
-.so_img img{
+.so_img1 img{
+  /* margin-left: 220px; */
+  display: block;
+  margin-left: 50%;
+  margin-right: auto;
+  width: 50%;
+  
+}
+.so_img2 img{
   /* margin-left: 220px; */
   display: block;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: 50%;
   width: 50%;
   
 }
@@ -107,7 +115,26 @@
     
   }
 }
+@media (max-width: 1500px){
+  .so_img1 img{
+    /* margin-left: 220px; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+  }
+  .so_img2 img{
+    /* margin-left: 220px; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+  }
+}
 @media (max-width: 400px){
+  
   .about p {
     text-align: justify;
     margin-bottom: 20px;
